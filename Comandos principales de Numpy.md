@@ -108,4 +108,74 @@ Producto matricial:
 Determinante de A: -2.0000000000000004
 ```
 <img width="1220" height="749" alt="Captura de pantalla 2025-08-23 185624" src="https://github.com/user-attachments/assets/0861ba7a-bd2f-41f3-907f-3c7f78e7a953" />
+# Datasheet: NumPy y Pandas para Ciencia de Datos
+
+## Sección C – Pandas: Creación y manipulación de DataFrames y Series
+
+Esta sección cubre los comandos principales de Pandas para crear y manipular DataFrames y Series, mostrando ejemplos ejecutados en Google Colab con los resultados incluidos.
+
+---
+
+### 1. Creación de un DataFrame
+
+```python
+import pandas as pd
+
+# Crear un DataFrame desde un diccionario
+data = {'Nombre': ['Julia', 'Miguel', 'Andrea'],
+        'Edad': [28, 34, 22],
+        'Ciudad': ['Madrid', 'Buenos Aires', 'Montevideo']}
+
+df = pd.DataFrame(data)
+print(df)
+```
+
+**Resultado:**
+```
+   Nombre  Edad        Ciudad
+0   Julia    28        Madrid
+1  Miguel    34  Buenos Aires
+2  Andrea    22    Montevideo
+```
+
+---
+
+### 2. Creación de una Serie
+
+```python
+# Crear una Serie desde una lista
+edades = pd.Series([28, 34, 22], name='Edad')
+print(edades)
+```
+
+**Resultado:**
+```
+0    28
+1    34
+2    22
+Name: Edad, dtype: int64
+```
+
+---
+
+### 3. Carga de datos desde un archivo CSV
+
+```python
+# Supongamos que tenemos un archivo 'personas_actualizadas.csv' con datos
+df_csv = pd.read_csv('personas_actualizadas.csv')
+print(df_csv.head())
+```
+
+**Resultado:**
+```
+   Nombre  Edad        Ciudad
+0   Julia    28        Madrid
+1  Miguel    34  Buenos Aires
+2  Andrea    22    Montevideo
+3   Carla    30       Quito
+4   Bruno    26      Caracas
+```
+
+---
+
 
