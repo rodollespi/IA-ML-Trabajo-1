@@ -179,3 +179,82 @@ print(df_csv.head())
 ---
 
 
+### 4. Selección de columnas
+
+```python
+# Seleccionar la columna 'Nombre'
+nombres = df['Nombre']
+print(nombres)
+```
+
+**Resultado:**
+```
+0     Julia
+1    Miguel
+2    Andrea
+Name: Nombre, dtype: object
+```
+
+---
+
+### 5. Visualizar tipos de datos (dtypes) y primeras filas (head)
+
+```python
+print(df.dtypes)
+print(df.head(2))
+```
+
+**Resultado:**
+```
+Nombre     object
+Edad        int64
+Ciudad     object
+dtype: object
+   Nombre  Edad      Ciudad
+0   Julia    28      Madrid
+1  Miguel    34  Buenos Aires
+```
+
+---
+
+### 6. Selección condicional de filas
+
+```python
+# Filtrar personas mayores de 30 años
+mayores_30 = df[df['Edad'] > 30]
+print(mayores_30)
+```
+
+**Resultado:**
+```
+   Nombre  Edad        Ciudad
+1  Miguel    34  Buenos Aires
+```
+
+---
+
+**Referencias:**  
+- [Documentación oficial de Pandas](https://pandas.pydata.org/docs/)
+- Ejecuciones realizadas en [Google Colab](https://colab.research.google.com/)
+
+
+----
+
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3039511b-f7c8-453a-a41c-16f4bb6a0b3b" />
+
+-----
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a54bdd56-773e-4bcc-ae84-60abe32dda24" />
+
+-----
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9362a1aa-d6f4-4185-aea8-ba959e7f342f" />
+
+
+
+---
+
+
+
+
