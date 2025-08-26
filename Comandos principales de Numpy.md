@@ -243,7 +243,11 @@ print(mayores_30)
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3039511b-f7c8-453a-a41c-16f4bb6a0b3b" />
 
+-----
+
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a54bdd56-773e-4bcc-ae84-60abe32dda24" />
+
+-----
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9362a1aa-d6f4-4185-aea8-ba959e7f342f" />
 
