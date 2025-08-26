@@ -107,3 +107,5 @@ Producto matricial:
  [10  8]]
 Determinante de A: -2.0000000000000004
 ```
+<img width="1220" height="749" alt="Captura de pantalla 2025-08-23 185624" src="https://github.com/user-attachments/assets/0861ba7a-bd2f-41f3-907f-3c7f78e7a953" />
+
