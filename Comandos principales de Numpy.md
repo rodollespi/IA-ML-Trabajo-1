@@ -50,3 +50,6 @@ Suma: [11 22 33]
 Multiplicación: [20 40 60]
 ```
 
+### Ejemplo realizado desde la herramienta Google Colab
+<img width="1220" height="749" alt="Captura de pantalla 2025-08-23 185624" src="https://github.com/user-attachments/assets/5248a233-b8fc-46f1-993f-cb056b7aa5f2" />
+
